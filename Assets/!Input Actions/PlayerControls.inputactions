@@ -1,0 +1,35 @@
+{
+    "version": 1,
+    "name": "PlayerControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "36880a60-b989-43b8-aaa2-f9dd8344cc59",
+            "actions": [
+                {
+                    "name": "Spawn",
+                    "type": "Button",
+                    "id": "3bde036e-f3d7-4cf0-95e8-0641506cab5e",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "36f7872e-75cc-4ad4-b6f9-c90b34ff6bf2",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spawn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
